@@ -1,0 +1,137 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts//Roboto-Black.ttf");
+}
+
+@font-face {
+  font-family: "Segoe";
+  src: url("../fonts/Segoe.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 40px;
+  background-color: rebeccapurple;
+  box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_logo {
+  background-color: transparent;
+}
+
+.header_logo h1 {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  color: #000;
+  padding: 20px;
+  box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  transition: 200ms all ease;
+}
+
+.header_logo a {
+  color: #000;
+  text-decoration: none;
+}
+
+.header_logo h1:hover {
+  box-shadow: 4px 5px 20px rgba(255, 255, 255, 01);
+}
+
+.header_menu {
+  flex-basis: 30%;
+}
+
+
+
+.header_navigation {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.header_icon{
+    margin-right: 5px;
+}
+
+
+.header_icon img{
+
+    width: 20px;
+    height: 20px;
+}
+
+.header_navigation a {
+
+    display: flex;
+
+  border-radius: 2px;
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+  padding: 8px;
+  background-color: #fff;
+  box-shadow: 4px 5px 20px rgba(0, 0, 0, 0.25);
+
+  cursor: pointer;
+  transition: 200ms all ease;
+}
+
+.header_navigation a:hover {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+  padding: 8px;
+  background-color: #fff;
+  box-shadow: 4px 5px 20px rgba(255, 255, 255, 01);
+}
+
+.container{
+    display: flex;
+
+}
+
+.container_sidebar{
+    padding: 40px;
+    width: 15%;
+    background-color: thistle;
+  
+}
+
+.container_sidebar h2{
+    font-family: 'Roboto';
+    margin-bottom: 10px;
+}
+
+.container_sidebar ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.container_sidebar ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.container_sidebar ul li a{
+    font-family: 'Roboto';
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+
+}
+
+.container_sidebar ul li a:hover{
+   text-decoration: underline;
+
+}
